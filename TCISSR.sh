@@ -37,4 +37,4 @@ if [[ ${OS} == Debian ]];then
 	apt-get install unzip wget
 fi
 # Download Main File
-wget https://github.com/wyxpr/TCInterconnection/raw/master/TCI.zip && unzip TCI.zip && cd TCI* && bash install.sh
+wget https://github.com/wyxpr/TCInterconnection/raw/master/TCI.zip && unzip TCI.zip && cd TCInterconnection && bash install.sh
